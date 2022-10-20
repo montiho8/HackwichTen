@@ -11,9 +11,17 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     var myFriendsArray = ["Sara", "Nicole","Grant"]
     
+    var dreamVacationsArray = ["Japan", "Australia","Canada","Singapore","Bali"]
+    
+    var friendsHomeArray = ["Kapolei","Kaneohe","Wahiawa"]
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
     {
         return myFriendsArray.count
+        
+        return dreamVacationsArray.count
+        
+        return friendsHomeArray.count
 
     }
     
@@ -24,7 +32,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         let text = myFriendsArray[indexPath.row]
         
         cell?.textLabel?.text = text
-        
+        cell?.detailTextLabel?.text = dreamVacationsArray[indexPath.row]
+        cell?.detailTextLabel?.text = friendsHomeArray[indexPath.row]
         return cell!
         
         
