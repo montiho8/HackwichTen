@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C16C6182913A20400F30BCB /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8C16C6172913A20400F30BCB /* Property List.plist */; };
+		8C16C61A2913A8A000F30BCB /* detailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C16C6192913A8A000F30BCB /* detailViewController.swift */; };
 		8C7226412901254F0092BAC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7226402901254F0092BAC7 /* AppDelegate.swift */; };
 		8C7226432901254F0092BAC7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7226422901254F0092BAC7 /* SceneDelegate.swift */; };
 		8C7226452901254F0092BAC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7226442901254F0092BAC7 /* ViewController.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8C16C6172913A20400F30BCB /* Property List.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
+		8C16C6192913A8A000F30BCB /* detailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailViewController.swift; sourceTree = "<group>"; };
 		8C72263D2901254F0092BAC7 /* HackwichSix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackwichSix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C7226402901254F0092BAC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8C7226422901254F0092BAC7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,9 +65,11 @@
 				8C7226402901254F0092BAC7 /* AppDelegate.swift */,
 				8C7226422901254F0092BAC7 /* SceneDelegate.swift */,
 				8C7226442901254F0092BAC7 /* ViewController.swift */,
+				8C16C6192913A8A000F30BCB /* detailViewController.swift */,
 				8C7226462901254F0092BAC7 /* Main.storyboard */,
 				8C7226542901387F0092BAC7 /* secondViewController.swift */,
 				8C722649290125530092BAC7 /* Assets.xcassets */,
+				8C16C6172913A20400F30BCB /* Property List.plist */,
 				8C72264B290125530092BAC7 /* LaunchScreen.storyboard */,
 				8C72264E290125530092BAC7 /* Info.plist */,
 			);
@@ -130,6 +136,7 @@
 			files = (
 				8C72264D290125530092BAC7 /* LaunchScreen.storyboard in Resources */,
 				8C72264A290125530092BAC7 /* Assets.xcassets in Resources */,
+				8C16C6182913A20400F30BCB /* Property List.plist in Resources */,
 				8C7226482901254F0092BAC7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,6 +151,7 @@
 				8C7226552901387F0092BAC7 /* secondViewController.swift in Sources */,
 				8C7226452901254F0092BAC7 /* ViewController.swift in Sources */,
 				8C7226412901254F0092BAC7 /* AppDelegate.swift in Sources */,
+				8C16C61A2913A8A000F30BCB /* detailViewController.swift in Sources */,
 				8C7226432901254F0092BAC7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

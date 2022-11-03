@@ -15,13 +15,30 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     var friendsHomeArray = ["Kapolei","Kaneohe","Wahiawa"]
     
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view.
+        
+        
+    }
+    
+   
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath)
+    {
+        tableView.deselectRow(at: indexPath as IndexPath, animated: true)
+    }
+    
+    
+    
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
     {
         return myFriendsArray.count
         
-        return dreamVacationsArray.count
+       // return dreamVacationsArray.count
         
-        return friendsHomeArray.count
+       // return friendsHomeArray.count
 
     }
     
@@ -32,7 +49,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         let text = myFriendsArray[indexPath.row]
         
         cell?.textLabel?.text = text
-        cell?.detailTextLabel?.text = dreamVacationsArray[indexPath.row]
+        // cell?.detailTextLabel?.text = dreamVacationsArray[indexPath.row]
         cell?.detailTextLabel?.text = friendsHomeArray[indexPath.row]
         return cell!
         
@@ -43,11 +60,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     @IBAction func nextButtonPressed(_ sender: Any) {
     }
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
-    }
-
+ 
 
 }
 
